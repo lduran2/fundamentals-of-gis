@@ -1,0 +1,135 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Schools</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The City of Philadelphia has migrated metadata for this data set to the City-wide Metadata catalog. For any quesitons about the migration and administration of the Metadata Catalog, please contact maps@phila.gov. To view the metadata for this layer, please visit: http://cityofphiladelphia.github.io/metadata-catalog/#home/datasetdetails/5543866320583086178c4ef1/representationdetails/55438aa49b989a05172d0d37/</abstract>
+      <purpose>The point locations of public (School District of Philadelphia), charter, private and archdiocesan schools in the City of Philadelphia.
+</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-75.277143</westbc>
+        <eastbc>-74.969325</eastbc>
+        <northbc>40.135423</northbc>
+        <southbc>39.889986</southbc>
+      </bounding>
+    </spdom>
+    <keywords />
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3143</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>550</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 StatePlane Pennsylvania South FIPS 3702 Feet</mapprojn>
+          <lambertc>
+            <stdparll>39.93333333333333</stdparll>
+            <stdparll>40.96666666666667</stdparll>
+            <longcm>-77.75</longcm>
+            <latprjo>39.33333333333334</latprjo>
+            <feast>1968500.0</feast>
+            <fnorth>0.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0004101052790441834</absres>
+            <ordres>0.0004101052790441834</ordres>
+          </coordrep>
+          <plandu>Foot_US</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>GIS_PLANNING.Schools</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FACIL_NAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FACIL_ADDRESS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GRADE_LEVEL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GRADE_ORG</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FACIL_TELEPHONE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ZIPCODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ENROLLMENT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ACTIVE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AUN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TYPE_SPECIFIC</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FACILNAME_LABEL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TYPE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LOCATION_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SCHOOL_NUM</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20130827</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo><distinfo><distrib><cntinfo><cntperp><cntorg>Pennsylvania Spatial Data Access (PASDA) </cntorg></cntperp><cntaddr><addrtype>mailing and physical address</addrtype><address>115 Land and Water Building</address><city>University Park</city><state>Pennsylvania</state><postal>16802</postal><country>United States</country></cntaddr><cntvoice>(814) 865 8792</cntvoice><cntemail>(814) 865 8792</cntemail></cntinfo></distrib><distliab>The USER shall indemnify, save harmless, and, if requested, defend those parties involved with the development and distribution of this data, their officers, agents, and employees from and against any suits, claims, or actions for injury, death, or property damage arising out of the use of or any defect in the FILES or any accompanying documentation. Those parties involved with the development and distribution excluded any and all implied warranties, including warranties or merchantability and fitness for a particular purpose and makes no warranty or representation, either express or implied, with respect to the FILES or accompanying documentation, including its quality, performance, merchantability, or fitness for a particular purpose. The FILES and documentation are provided "as is" and the USER assumes the entire risk as to its quality and performance. Those parties involved with the development and distribution of this data will not be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the FILES or any accompanying documentation.</distliab></distinfo>
+</metadata>
