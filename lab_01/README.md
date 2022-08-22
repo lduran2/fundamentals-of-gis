@@ -65,7 +65,7 @@ following the tutorial.
     button at the lower left of the screen, then go to CAD and GIS, then
     ArcGIS.
 2.  Press the ‘Connect to Folder’ button.
-    ![](images/ArcMapConnectToFolderButton.png)
+    ![](../images/ArcMapConnectToFolderButton.png)
 3.  Navigate to the location of your Lab1 workspace folder and then
     click OK. **Note:** After you have connected to a data folder you
     will be able to connect directly to this folder in the future
@@ -75,7 +75,7 @@ following the tutorial.
 5.  In the catalog tree, navigate to your workspace folder and drill
     down in each folder so that you can see each spatial data layer
     you’ve downloaded, something like this:  
-    ![](images/Lab1Fig1.png) 
+    ![](../images/Lab1Fig1.png) 
 6.  Each of these spatial data layers is a **shapefile**, which is a
     particular GIS file format. There are other such formats, but
     shapefiles are very common. You’ll notice different symbols for each
@@ -85,7 +85,7 @@ following the tutorial.
     at the top of the view window on the right side of ArcCatalog so
     that the layer appears like this:  
     ![This is a map of the Philadelphia
-    neighborhoods.](images/Lab1Fig2.png) 
+    neighborhoods.](../images/Lab1Fig2.png) 
 8.  At the bottom of the view window, next to Preview: change the drop
     down menu from Geography to Table. Now you see the attribute table
     for this layer. Each row represents one polygon, or neighborhood, in
@@ -100,20 +100,20 @@ following the tutorial.
 ## Opening ArcMap and Adding Map Layers
 
 1.  Open ArcMap. You can do this by clicking on the ArcMap button in
-    ArcCatalog ![](images/ArcCatalogLaunchArcMapButton.png) or by
+    ArcCatalog ![](../images/ArcCatalogLaunchArcMapButton.png) or by
     opening ArcMap on its own from the CAD and GIS/ArcGIS folder.
 2.  The New Document dialog will appear. Click OK to begin with a blank
     map. **Note:** When you are starting with a new map, it doesn’t
     really matter whether you close this dialog by clicking OK, Cancel,
     or the **X** at the upper right.
-3.  Click the Add Data Button. ![](images/ArcMapAddDataButton.png)
+3.  Click the Add Data Button. ![](../images/ArcMapAddDataButton.png)
 4.  In the Add Data browser window click the ‘Connect to Folder’ button,
     navigate to your workspace folder, and press OK.
 5.  Navigate into your workspace folder and add the neighborhoods,
     schools, and bike network data layers to ArcMap.
 6.  After adding the files, it should look something like this (the
     colors may be different):  
-    ![](images/Lab1Fig3.png) 
+    ![](../images/Lab1Fig3.png) 
 
 > **Table of Contents (TOC)**
 > 
@@ -146,7 +146,7 @@ see tooltips for their function:
 
 In a new map, the List By Drawing Order button should be selected:
 
-![](images/ArcMapTocButtons.png) 
+![](../images/ArcMapTocButtons.png) 
 
 1.  Select the List By Drawing Order button if it is not already
     selected (if, for example, you have done the steps out of order, or
@@ -300,7 +300,7 @@ links when working with GIS.
     but the source data is not at the expected location. Any layer
     properties, such as the color of polygon features, are preserved,
     even if ArcMap can’t find the polygons to display\!  
-    ![](images/Lab1Fig4.png) 
+    ![](../images/Lab1Fig4.png) 
 3.  Right-click on any of the layers in the TOC. From the popup menu
     select Data → Repair Data Source….
 4.  Navigate to the correct shapefile for the layer you clicked on.
@@ -356,7 +356,7 @@ Check the path settings as follows:
 2.  Click File → Map Document Properties.
 3.  Check “Store relative pathnames to data sources” (if it is not
     checked) and Press OK.  
-    ![](images/ArcMapDocumentProperties.png) 
+    ![](../images/ArcMapDocumentProperties.png) 
 
 Usually, working with relative paths is preferable, and *the Temple CLA
 computers should be set to use relative paths by default*. If you
@@ -387,7 +387,7 @@ your Lab1 map document
 2.  Double click the neighborhoods layer in the TOC. (You can also
     right-click on the layer and select Properties from the popup menu.)
 3.  Click on the Symbology tab.  
-    ![](images/ArcMapSymbologySingleSymbol.png) 
+    ![](../images/ArcMapSymbologySingleSymbol.png) 
 4.  Click the colored polygon symbol.
 5.  Select a new ‘fill’ color and select a color from the color palette.
 6.  Select ‘outline’ color and select a new color.
@@ -408,7 +408,7 @@ your Lab1 map document
 
 ## Using the Tools Toolbar to Navigate and Get Information
 
-![](images/ArcMapToolsToolbar.png) 
+![](../images/ArcMapToolsToolbar.png) 
 
 ArcMap has many toolbars, which can be toggled on and off in the
 Customize menu. A default installation will start with the following two
@@ -447,7 +447,7 @@ The identify tool allows you to quickly get attribute information about
 a geographic feature. Let’s try to get info about the neighborhoods.
 
 1.  Turn off all the layers except the neighborhoods.
-2.  Select the ‘Identify’ tool ![](images/ArcMapIdentifyTool.png) and
+2.  Select the ‘Identify’ tool ![](../images/ArcMapIdentifyTool.png) and
     click on one of the neighborhoods. The Identify window will appear.
     This shows you the attribute values from the attribute table for
     that neighborhood, such as its name.
@@ -463,7 +463,7 @@ a geographic feature. Let’s try to get info about the neighborhoods.
 
 How big is Philadelphia?
 
-1.  Click the Measure tool ![](images/ArcMapMeasureButton.png) on the
+1.  Click the Measure tool ![](../images/ArcMapMeasureButton.png) on the
     Tools toolbar to open the Measure dialog box.
 2.  When the measure menu opens, click on the units dropdown menu (its
     down arrow), select distance, and then miles.
@@ -485,12 +485,12 @@ data for counties or census tracts, disease counts by health district).
 1.  Turn off all layers except for schools.
 2.  Right-click the schools layer in the TOC and select ‘Open Attribute
     Table’ from the popup menu.  
-    ![](images/Lab1Fig5.png) 
+    ![](../images/Lab1Fig5.png) 
 
 The table containing the records for schools should open. This is same
 table you viewed earlier in ArcCatalog.
 
-![](images/Lab1Fig6.png) 
+![](../images/Lab1Fig6.png) 
 
 1.  The attribute fields names appear at the top. Scroll across the
     table to view them all. Some important fields are:
@@ -552,16 +552,16 @@ Manual Selection:
     table and in the map (it is adjacent to Temple University Main
     Campus). Note that at bottom of the table it should indicate 1 out
     of 550 schools are selected.  
-    ![](images/Lab1Fig7.png) 
+    ![](../images/Lab1Fig7.png) 
 4.  Clear the selection by clicking the Clear Selection button
-    ![](images/ArcMapClearSelectionButton.png) on the attribute table or
+    ![](../images/ArcMapClearSelectionButton.png) on the attribute table or
     in ArcMap.
 
 Attribute Query:
 
 1.  In the attribute table go the Table Options button at the top left
     and choose Select by Attributes.  
-    ![](images/Lab1Fig8.png) 
+    ![](../images/Lab1Fig8.png) 
 2.  A dialog box will pop up that allows to make a query statement. We
     will create a query that states which schools will be selected based
     on some criteria, in this example, the school with the name Dunbar,
@@ -580,7 +580,7 @@ Attribute Query:
     double quotes. Text values, such as the school name, appear in
     single quotes. You should form a query appearing in the text box at
     the bottom of the dialog box:  
-    ![](images/Lab1Fig9.png) 
+    ![](../images/Lab1Fig9.png) 
 6.  Click Apply. The same school should be selected in the table and on
     the map.
 7.  Close the Select by Attributes box and clear your selection.
@@ -619,7 +619,7 @@ As an example, we will get statistics from the schools attribute table:
     “Statistics…”
 3.  On the Statistics dialog box, you’ll see information about the
     values in the field whose heading you clicked.  
-    ![](images/Lab1Fig10.png) 
+    ![](../images/Lab1Fig10.png) 
 4.  Note the statistics, e.g. minimum, maximum, mean, etc. The sum is
     the sum of the row values in the Enrollment field for all the
     schools, i.e. the total number of students in all schools – 231,981
@@ -640,12 +640,12 @@ features. The ‘Select Features’ tool works using a single graphic that
 you interactively digitize (draw) as part of the selection process.
 
 1.  Click the Select Features button
-    ![](images/ArcMapSelectFeaturesButton.png), then click ‘Select by
+    ![](../images/ArcMapSelectFeaturesButton.png), then click ‘Select by
     Rectangle’  
-    ![](images/ArcMapSelectByRectangle.png) 
+    ![](../images/ArcMapSelectByRectangle.png) 
 2.  Using the cursor draw a rectangle around a set of schools, say, the
     schools in West Philadelphia.  
-    ![](images/Lab1Fig11.png) 
+    ![](../images/Lab1Fig11.png) 
 3.  Examine the selected records on the map and in the schools attribute
     table.
 4.  You can also perform a graphical selection using a circle or other
@@ -663,7 +663,7 @@ located within 500 feet of the bike network.
     off).
 2.  From the menu at the top, choose Selection, then Select by
     Location.  
-    ![](images/Lab1Fig12.png) 
+    ![](../images/Lab1Fig12.png) 
 3.  In the Select By Location dialog box choose
       - Selection method: Select features from
       - Check the box next to PhillyPlanning\_Schools (since you want to
@@ -672,7 +672,7 @@ located within 500 feet of the bike network.
       - Spatial selection method for target layer feature(s): are within
         a distance of the source layer feature
       - Apply a search distance: 250 Feet  
-        ![](images/Lab1Fig13.png) 
+        ![](../images/Lab1Fig13.png) 
 4.  Press OK.
 5.  You should see 140 of the 550 schools selected. Open the attribute
     table for the schools layer to see how many schools are selected.
@@ -702,14 +702,14 @@ students (second selection).
     There should be 15 schools selected, which are both charter schools
     and with enrollments greater than 1,000 students.
     
-    ![](images/Lab1Fig14.png) 
+    ![](../images/Lab1Fig14.png) 
 
 Now, we will select a set of features from a set of selected source
 features – the neighborhoods that contain the selected schools.
 
 1.  Close the schools attribute table, but keep the 15 charter schools
     selected.  
-    ![](images/Lab1Fig15.png) 
+    ![](../images/Lab1Fig15.png) 
 2.  Open Select By Location.
       - For Selection method: choose select features from.
       - For Target layer(s) check the box for the neighborhoods layer
@@ -723,11 +723,11 @@ features – the neighborhoods that contain the selected schools.
         i.e. if a neighborhood contains a currently selected school.
         (Make sure the Apply a search distance box is NOT checked)
       - Press OK.  
-        ![](images/Lab1Fig16.png) 
+        ![](../images/Lab1Fig16.png) 
 
 There should be 10 out of 48 neighborhoods selected.
 
-![](images/Lab1Fig17.png) 
+![](../images/Lab1Fig17.png) 
 
 ## Creating a New Map Layer from a Selection of Features
 
@@ -770,7 +770,7 @@ tutorial.
 6.  Under Name: enter my\_neighborhoods (or, whatever you want to name
     this file – whether or not you leave .shp at the end doesn’t
     matter).  
-    ![](images/Lab1Fig18.png) 
+    ![](../images/Lab1Fig18.png) 
 7.  Click Save. You’re actually not done yet, as this just pushes your
     settings to the Export Data dialog box. Click OK.
 8.  A dialog box will appear asking whether you want to add your new
@@ -808,11 +808,11 @@ the design process when you are trying out different ideas.
 2.  Make sure you are viewing the full extent of your data (press the
     full extent button to be sure). Your canvas should look something
     like this (your colors may be different):  
-    ![](images/Lab1Fig19.png) 
+    ![](../images/Lab1Fig19.png) 
 3.  Switch to Layout View in one of the following ways:
       - Click the Layout View button in the lower-left of the map
         canvas:  
-        ![](images/ArcMapLayoutViewButton.png) 
+        ![](../images/ArcMapLayoutViewButton.png) 
       - Select View → Layout View from the menu.
       - Note that you can toggle back and forth between the layout and
         data view windows.
@@ -823,10 +823,10 @@ the design process when you are trying out different ideas.
     from the pan and zoom tools on the Tools toolbar. Experiment with
     these tools to move around the page. When you are done, hit Zoom
     Whole Page (the fourth button on the Layout toolbar).  
-    ![](images/ArcMapLayoutToolbar.png) 
-5.  The pan and zoom buttons ![](images/ArcMapZoomAndPanButtons.png) on
+    ![](../images/ArcMapLayoutToolbar.png) 
+5.  The pan and zoom buttons ![](../images/ArcMapZoomAndPanButtons.png) on
     the Tools toolbar can be used to resize the map image on the page.
-    Use the Zoom In button ![](images/ArcMapZoomInButton.png) to make
+    Use the Zoom In button ![](../images/ArcMapZoomInButton.png) to make
     sure that Philadelphia fills most of the data frame. Note that if
     you zoom in too far, parts of Philadelphia will be “outside” the
     data frame, and will not appear on the page.
@@ -842,7 +842,7 @@ the design process when you are trying out different ideas.
     layout may look something like this, but do *NOT* try to make it
     look exactly the same. Just make sure it has all of the requested
     elements:  
-    ![](images/Lab1Fig20.png) 
+    ![](../images/Lab1Fig20.png) 
 
 Once you have completed your map, save your .mxd document.
 
